@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Color Palette Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>🎨 Color Palette Generator</h1>
+      <div class="controls">
+        <button id="generateBtn">🎲 Generate Random Palette</button>
+        <select id="presetSelect">
+          <option value="">🔥 Trending Palettes</option>
+          <option value="#ff6f61,#6b5b95,#88b04b,#f7cac9,#92a8d1">Retro Chic</option>
+          <option value="#2d2d2d,#ffffff,#ff6363,#3fc1c9,#fc5185">Minimal Pop</option>
+          <option value="#264653,#2a9d8f,#e9c46a,#f4a261,#e76f51">Sunset Desert</option>
+          <option value="#0f4c75,#3282b8,#bbe1fa,#1b262c,#dbe2ef">Ocean Blue</option>
+        </select>
+      </div>
+    </header>
+
+    <main id="palette" class="palette"></main>
+
+    <footer>
+      <p>Built with ❤️ by @shreya</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
